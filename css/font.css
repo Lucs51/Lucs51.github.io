@@ -1,0 +1,5 @@
+@font-face { font-family: Galbasic; src: url('../font/galbasic.ttf'); } 
+
+.galbasic {
+    font-family: 'Galbasic', sans-serif;
+  }

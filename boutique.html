@@ -24,20 +24,21 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-indigo" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="./index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Accueil</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white">Boutique</a>
+    <a href="./restaurant.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white w3-hide-small w3-green">Restaurant</a>
   </div>
 
   <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Boutique</a>
+  <div id="navDemo" class="w3-bar-block w3-indigo w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Boutique</a>
+    <a href="./restaurant.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Restaurant</a>
 </div>
 </div>
 
 <!-- main -->
 <div style="background-color: #32408f;">
 <div class="w3-center" style="padding: 50px 0px 20px;">
-    <img src="./img/logo_nom.png" class="w3-hide-small" style="width: 10%;">
+    <img src="./img/logo_nom.png" class="w3-hide-small" style="width: 10%;" draggable="false">
 </div>
-
 
 <!-- caillou -->
 <div style="padding: 0px 30% 10px;">
@@ -56,132 +57,137 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <!-- Accessoires -->
 <div style="padding: 20px 10% 20px">
   <div class="w3-container w3-xlarge w3-center w3-indigo" style="padding: 20px;">
-    <h1 class="w3-text-white">Nécessaires pour Cailloux</h1>
+    <h1 class="w3-text-white">Boutique pour Cailloux</h1>
   </div>
 </div>
 
 <div class="w3-row-padding" style="  display: flex; flex-direction: row; justify-content: center; align-items: center; text-align: center; min-height: 20vh; padding: 20px 0px 60px;">
   <div class="w3-third">
     <div class="w3-card">
+      <div class="w3-container w3-red">
+        <h1><b>Piège à mouettes x10</b></h1>
+      </div>
+      <div class="w3-container w3-xlarge">
+        <img src="./src/piège-à-machoires.png" width="50%" draggable="false" style="padding: 30px 0px 10px;">
+        <p class="w3-text-white galbasic"><br>10,000$</p>
+      </div>
+      </div>
+    <br>
+    <div class="w3-card">
     <div class="w3-container w3-indigo">
-      <h1><b>Laisse</b></h1>
+      <h1><b>Autographe</b></h1>
     </div>
-    <div class="w3-container w3-xlarge w3-center">
-      <img src="./src/laisse.png" width="50%" draggable="false" style="padding: 14px 0px 10px;">
-      <p class="w3-text-white galbasic"><br>5,000$</p>
+    <div class="w3-container w3-xlarge">
+      <img src="./img/autographe.png" width="50%" draggable="false" style="padding: 30px 0px 10px;">
+      <p class="w3-text-white galbasic"><br>2,000$</p>
     </div>
     </div>
     <br>
     <div class="w3-card">
-    <div class="w3-container w3-red">
-      <h1><b>Piège à mouettes x10</b></h1>
-    </div>
-    <div class="w3-container w3-xlarge">
-      <img src="./src/piège-à-machoires.png" width="50%" draggable="false" style="padding: 30px 0px 10px;">
-      <p class="w3-text-white galbasic"><br>10,000$</p>
-    </div>
-    </div>
+      <div class="w3-container w3-indigo">
+        <h1><b>Laisse</b></h1>
+      </div>
+      <div class="w3-container w3-xlarge w3-center">
+        <img src="./img/laisse.png" width="50%" draggable="false" style="padding: 30px 0px 10px;">
+        <p class="w3-text-white galbasic"><br>5,000$</p>
+      </div>
+      </div>
+      <br>
+      <div class="w3-card">
+        <div class="w3-container w3-indigo">
+          <h1><b>Pantoufle</b></h1>
+        </div>
+        <div class="w3-container w3-xlarge w3-center">
+          <img src="./img/pantoufle.png" width="50%" draggable="false" style="padding: 30px 0px 10px;">
+          <p class="w3-text-white galbasic"><br>3,000$</p>
+        </div>
+        </div>
+        <br>
+        <div class="w3-card">
+          <div class="w3-container w3-indigo">
+            <h1><b>Coupe ongle</b></h1>
+          </div>
+          <div class="w3-container w3-xlarge w3-center">
+            <img src="./img/coupe-ongle.png" width="50%" draggable="false" style="padding: 30px 0px 10px;">
+            <p class="w3-text-white galbasic"><br>2,000$</p>
+          </div>
+          </div>
+          <br>
+          <div class="w3-card">
+            <div class="w3-container w3-indigo">
+              <h1><b>Demi-dentier</b></h1>
+            </div>
+            <div class="w3-container w3-xlarge w3-center">
+              <img src="./img/dentier-haut.png" width="50%" draggable="false" style="padding: 30px 0px 10px;">
+              <p class="w3-text-white galbasic"><br>4,000$</p>
+            </div>
+            </div>
   </div>
   
 
   
   <div class="w3-third">
     <div class="w3-card">
+      <div class="w3-container w3-red">
+        <h1><b>Piège à mouettes x30</b></h1>
+      </div>
+      <div class="w3-container w3-xlarge">
+        <img src="./img/piège-à-machoires-x3.png" width="50%" draggable="false" style="padding: 30px 0px 10px;">
+        <p class="w3-text-white galbasic"><del>30,000$</del><br>25,000$</p>
+      </div>
+      </div>
+    <br>
+    <div class="w3-card">
     <div class="w3-container w3-indigo">
-      <h1><b>Chapeau</b></h1>
+      <h1><b>Prothèse de pied</b></h1>
     </div>
     <div class="w3-container w3-xlarge">
-      <img src="./img/chapeau.png" width="54%" draggable="false" style="padding: 30px 0px 10px;">
-      <p class="w3-text-white galbasic"><br>10,000$</p>
+      <img src="./img/pied.png" width="50%" draggable="false" style="padding: 30px 0px 10px;">
+      <p class="w3-text-white galbasic"><br>15,000$</p>
     </div>
     </div>
     <br>
     <div class="w3-card">
-    <div class="w3-container w3-red">
-      <h1><b>Piège à mouettes x30</b></h1>
-    </div>
-    <div class="w3-container w3-xlarge">
-      <img src="./img/piège-à-machoires-x3.png" width="50%" draggable="false" style="padding: 30px 0px 10px;">
-      <p class="w3-text-white galbasic"><del>30,000$</del><br>25,000$</p>
-    </div>
-    </div>
-  </div>
-  </div>
-
-<!--
-  <div style="padding: 20px 10% 20px">
-    <div class="w3-container w3-xlarge w3-center w3-indigo" style="padding: 20px;">
-      <h1 class="w3-text-white">Accessoire pour cailloux</h1>
-    </div>
-  </div>
-
-  <div class="w3-row-padding" style="  display: flex; flex-direction: row; justify-content: center; align-items: center; text-align: center; min-height: 30vh; padding: 20px 0px 60px;">
-
-
-    <div class="w3-third">
-      <div class="w3-card">
       <div class="w3-container w3-indigo">
-        <h1><b>HOO</b></h1>
-      </div>
-      <div class="w3-container w3-xlarge w3-center">
-        <p>The Newest<br>
-        <i><b>triple-action</b></i><br>
-        <span class="w3-xxlarge w3-text-red"><b>HOO</b></span></p>
-        <p><del>$400</del> <span class="w3-tag w3-yellow">New!</span><br>
-        Now only $299 !!!</p>
-      </div>
-      </div>
-      <br>
-      <div class="w3-card">
-      <div class="w3-container w3-green">
-        <h1><b>HOO</b></h1>
+        <h1><b>Chapeau</b></h1>
       </div>
       <div class="w3-container w3-xlarge">
-        <p>The Newest<br>
-        <i><b>triple-action</b></i><br>
-        <span class="w3-xxlarge w3-text-red"><b>HOO</b></span></p>
-        <p><del>$400</del> <span class="w3-badge w3-red">6</span><br>
-        Now only $299 !!!</p>
-      </div>
-      </div>
-    </div>
-    
-  
-    
-    <div class="w3-third">
-      <div class="w3-card">
-      <div class="w3-container w3-red">
-        <h1><b>HOO</b></h1>
-      </div>
-      <div class="w3-container w3-xlarge w3-yellow">
-        <p>The Newest<br>
-        <i><b>triple-action</b></i><br>
-        <span class="w3-xxlarge w3-text-red"><b>HOO</b></span></p>
-        <p>Before <del>$400</del><br>
-        Now only $299 !!!</p>
+        <img src="./img/chapeau.png" width="50%" draggable="false" style="padding: 30px 0px 10px;">
+        <p class="w3-text-white galbasic"><br>10,000$</p>
       </div>
       </div>
       <br>
       <div class="w3-card">
-      <div class="w3-container">
-        <h1><b>HOO</b></h1>
-      </div>
-      <div class="w3-container w3-xlarge w3-red">
-        <p>The Newest<br>
-        <i><b>triple-action</b></i><br>
-        <span class="w3-xxlarge"><b>HOO</b></span></p>
-        <p>Before <del>$400</del><br>
-        Now only $299 !!!</p>
-      </div>
-      </div>
-    </div>
-  
-    
-
-    </div>
-</div>
-
--->
+        <div class="w3-container w3-indigo">
+          <h1><b>Paire de pantoufle</b></h1>
+        </div>
+        <div class="w3-container w3-xlarge w3-center">
+          <img src="./img/paire-pantoufle.png" width="50%" draggable="false" style="padding: 30px 0px 10px;">
+          <p class="w3-text-white galbasic"><del>6,000$</del><br>5,000$</p>
+        </div>
+        </div>
+        <br>
+        <div class="w3-card">
+          <div class="w3-container w3-indigo">
+            <h1><b>Balles en mousses</b></h1>
+          </div>
+          <div class="w3-container w3-xlarge w3-center">
+            <img src="./img/balles.png" width="50%" draggable="false" style="padding: 30px 0px 10px;">
+            <p class="w3-text-white galbasic"><br>3,000$</p>
+          </div>
+          </div>
+          <br>
+          <div class="w3-card">
+            <div class="w3-container w3-indigo">
+              <h1><b>Dentier complet</b></h1>
+            </div>
+            <div class="w3-container w3-xlarge w3-center">
+              <img src="./img/dentier-complet.png" width="50%" draggable="false" style="padding: 30px 0px 10px;">
+              <p class="w3-text-white galbasic"><del>8,000$</del><br>7,000$</p>
+            </div>
+            </div>
+  </div>
+  </div>
 
 <!-- Footer -->
 <div class="w3-container w3-black w3-center w3-opacity" style="padding:30px 16px">

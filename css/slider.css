@@ -1,0 +1,31 @@
+.prout {
+  background:url(src\food-1.jpg);
+  animation: chbg 15s infinite alternate;
+  background-size:cover
+}
+@keyframes chbg {
+  0% {
+    background:url(src\food-1.jpg);
+  background-size:cover
+  }
+  20% {
+    background:url(src\food-2.jpg);
+  background-size:cover
+  }
+  40% {
+    background:url(src\food-3.jpg);
+  background-size:cover
+  }
+  60% {
+    background:url(src\food-1.jpg);
+  background-size:cover
+  }
+  80% {
+    background:url(src\food-2.jpg);
+  background-size:cover
+  }
+  100% {
+    background:url(src\food-3.jpg);
+  background-size:cover
+  }
+}

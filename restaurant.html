@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<title>Caillou-Inc</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="./logo.ico" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./css/w3-colors-win8.css">
+<link rel="stylesheet" href="./css/w3-shades-blue.css">
+<link rel="stylesheet" href="./css/font.css">
+<link rel="stylesheet" href="./css/w3-shades-blue.css">
+<link rel="stylesheet" href="./css/slider.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body >
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-indigo w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-indigo" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="./index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Accueil</a>
+    <a href="./boutique.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Boutique</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Restaurant</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-indigo w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="./boutique.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Boutique</a>
+    <a href="./index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Accueil</a>
+</div>
+</div>
+
+<div style="height:900px;background-image:url('src/food-1.png');background-size:cover"
+class="w3-display-container">
+<div class="w3-center" style="padding: 50px 0px 20px;">
+  <img src="./img/logo_nom.png" class="w3-hide-small" style="width: 10%;" draggable="false">
+</div>
+<div class="w3-display-bottomright">
+  <span class="w3-tag w3-xlarge">Ouvert dès son ouverture</span>
+</div>
+<div class="w3-display-middle w3-center">
+  <span class="w3-text-white" style="font-size:100px">Au bon Caillou<br></span>
+  <p><a href="#menu" class="w3-button w3-xxlarge w3-black">Montrez moi le menu</a></p>
+</div>
+</div>
+
+
+<div id="menu" class="w3-container w3-theme-d2 w3-xxlarge w3-padding-64" style="padding: 0% 200px;">
+<h1 class="w3-center w3-jumbo w3-padding-32">LE MENU<br><span style="font-size:30px" >Notre menu change tout les mois !</span></h1>
+<div class="w3-row w3-center w3-indigo w3-border-dark-grey">
+<a href="#plats"><div class="w3-third w3-padding-large w3-red">Plats</div></a>
+<a href="#desserts"><div class="w3-third w3-padding-large w3-hover-red">Desserts</div></a>
+<a href="#boissons"><div class="w3-third w3-padding-large w3-hover-red">Boissons</div></a>
+</div>
+
+
+<div id="plats" class="w3-container w3-white w3-padding-32">
+<h1><b>Bacon de cochon globe</b> <span class="w3-right w3-tag w3-dark-grey w3-round galbasic">650$</span></h1>
+<p class="w3-text-grey">Viande de cochon fraîche</p>
+<hr>
+<h1><b>Nerfburger</b> <span class="w3-tag w3-red w3-round">Populaire!</span> 
+<span class="w3-right w3-tag w3-dark-grey w3-round galbasic">750$</span></h1>
+<p class="w3-text-grey">Viande de Nerf fraîche, Pains polyamidon, Salade, Fromage de lait bleu</p>
+<hr>
+<h1><b>Steak de dewback</b> <span class="w3-right w3-tag w3-dark-grey w3-round galbasic">650$</span></h1>
+<p class="w3-text-grey">Viande de dewback fraîche</p>
+<hr>
+<h1><b>Ragoût d'Eopie</b> <span class="w3-right w3-tag w3-dark-grey w3-round galbasic">700$</span></h1>
+<p class="w3-text-grey">Viande d'Eopie fraîche</p>
+<hr>
+<h1><b>Tarte de Loth-rat</b> <span class="w3-right w3-tag w3-dark-grey w3-round galbasic">700$</span></h1>
+<p class="w3-text-grey">Viande de Loth-rat fraîche</p>
+</div>
+
+
+<h1 id="desserts" class="w3-center w3-jumbo w3-padding-32">DESSERTS</h1>
+<div class="w3-container w3-white w3-padding-32">
+<h1><b>Crème de lait bleu</b>
+<span class="w3-right w3-tag w3-dark-grey w3-round galbasic">600$</span></h1>
+<p class="w3-text-grey">Lait bleu frais</p>
+<hr>
+<h1><b>Gelée de fruits</b> <span class="w3-right w3-tag w3-dark-grey w3-round galbasic">700$</span></h1>
+<p class="w3-text-grey">Fruit Durang, Herbacœur, Melon de miel, Muja, Oi-oi, Piment chando</p>
+<hr>
+<h1><b>Pancakes de lait bleu</b> <span class="w3-right w3-tag w3-dark-grey w3-round galbasic">600$</span></h1>
+<p class="w3-text-grey">Lait bleu frais</p>
+<hr>
+<h1><b>Tarte aux baies Wasaka</b> <span class="w3-right w3-tag w3-dark-grey w3-round galbasic">600$</span></h1>
+<p class="w3-text-grey">Farine de Kashyyyk, Baies de Wasaka</p>
+<hr>
+<h1><b>Tibanna split</b> <span class="w3-right w3-tag w3-dark-grey w3-round galbasic">800$</span></h1>
+<p class="w3-text-grey">3 Boules de glaces: haricots denta, chocolat Trammistan, Beebleberry ; Crème fouettée ; Zerise</p>
+</div>
+
+
+<h1 id="boissons" class="w3-center w3-jumbo w3-padding-32">BOISSONS</h1>
+
+<div class="w3-container w3-white w3-padding-32">
+<h1 class="w3-center w3-indigo">Softs</h1>
+<h1><b>Eau</b> <span class="w3-right w3-tag w3-dark-grey w3-round galbasic">100$</span></h1>
+<hr>
+<h1><b>Lait Bleu</b>
+<span class="w3-right w3-tag w3-dark-grey w3-round galbasic">300$</span></h1>
+<hr>
+<h1><b>Infusion Chava chava</b> <span class="w3-right w3-tag w3-dark-grey w3-round galbasic">300$</span></h1>
+<hr>
+<h1><b>Coca-Cola</b> <span class="w3-right w3-tag w3-dark-grey w3-round galbasic">350$</span></h1>
+<hr>
+<h1><b>Sprite</b> <span class="w3-right w3-tag w3-dark-grey w3-round galbasic">350$</span></h1>
+<hr>
+<h1><b>Hyperdrive</b> <span class="w3-right w3-tag w3-dark-grey w3-round galbasic">350$</span></h1>
+<hr>
+<h1><b>Photon Fizzle</b> <span class="w3-right w3-tag w3-dark-grey w3-round galbasic">400$</span></h1>
+<hr>
+<div class="w3-container w3-white w3-padding-32">
+<h1 class="w3-center w3-indigo">Alcools</h1>
+<hr>
+<h1><b>Bière de Batuu</b> <span class="w3-right w3-tag w3-dark-grey w3-round galbasic">700$</span></h1>
+<hr>
+<h1><b>Bière de Black Spire</b> <span class="w3-right w3-tag w3-dark-grey w3-round galbasic">700$</span></h1>
+<hr>
+<h1><b>Bière corélienne</b> <span class="w3-right w3-tag w3-dark-grey w3-round galbasic">750$</span></h1>
+<hr>
+<h1><b>Kri’ger</b> <span class="w3-right w3-tag w3-dark-grey w3-round galbasic">700$</span></h1>
+<hr>
+<h1><b>Ne’tra gal</b> <span class="w3-right w3-tag w3-dark-grey w3-round galbasic">750$</span></h1>
+<hr>
+<h1><b>Tihaar</b> <span class="w3-right w3-tag w3-dark-grey w3-round galbasic">750$</span></h1>
+<hr>
+<h1><b>Super Nova</b> <span class="w3-right w3-tag w3-dark-grey w3-round galbasic">700$</span></h1>
+<hr>
+<h1><b>Whisky Corellien</b> <span class="w3-right w3-tag w3-dark-grey w3-round galbasic">750$</span></h1>
+<hr>
+<h1><b>Whiskey tevraki</b> <span class="w3-right w3-tag w3-dark-grey w3-round galbasic">750$</span></h1>
+<hr>
+<h1><b>Blurrgfire</b> <span class="w3-right w3-tag w3-dark-grey w3-round galbasic">800$</span></h1>
+<hr>
+<h1><b>Tsiraki</b> <span class="w3-right w3-tag w3-dark-grey w3-round galbasic">800$</span></h1>
+</div>
+</div>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+</script>
+
+<!-- Scrollbar -->
+<style>
+::-webkit-scrollbar { 
+    display: none; 
+}
+  </style>
+
+</body>
+</html>
